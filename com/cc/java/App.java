@@ -20,10 +20,7 @@ public class App {
 
         output("---------------");
 
-        // das sollte eigentlich nicht gehen!
-        HoneyBee bee = new HoneyBee();
-        output(bee.doYourJob());
-
+        
     }
 
     public static void output(String outputStr) {

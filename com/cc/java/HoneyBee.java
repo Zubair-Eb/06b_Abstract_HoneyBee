@@ -1,14 +1,9 @@
 package com.cc.java;
 
-public class HoneyBee {
+public abstract class HoneyBee {
     
-    protected String doYourJob() {
-        return "I'm a HoneyBee!";
-    }
+    protected abstract String doYourJob();
 
-    protected String fly() {
-        return "I can fly!";
-    }
-
-
+    protected abstract String fly();
+    
 }
